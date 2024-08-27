@@ -1,0 +1,339 @@
+{
+  "pieChartData": [60, 25, 15],
+  "barChartData": [50, 55, 60, 65, 40],
+  "attendanceRecords": [
+    {
+      "id": "1",
+      "date": "2024-08-01",
+      "student": "John Emmanuel",
+      "status": "Present"
+    },
+    {
+      "id": "2",
+      "date": "2024-08-01",
+      "student": "Feyisara Balogun",
+      "status": "Absent"
+    },
+    {
+      "id": "3",
+      "date": "2024-08-01",
+      "student": "Blessing Ubong",
+      "status": "Present"
+    },
+    {
+      "id": "4",
+      "date": "2024-08-01",
+      "student": "Joshua Clara",
+      "status": "Absent"
+    },
+    {
+      "id": "5",
+      "date": "2024-08-01",
+      "student": "Ifesanwo Ifeoluwa",
+      "status": "Present"
+    },
+    {
+      "id": "6",
+      "date": "2024-08-01",
+      "student": "Feyisayo Gold",
+      "status": "Present"
+    },
+    {
+      "id": "7",
+      "date": "2024-08-01",
+      "student": "Coker Racheal",
+      "status": "Absent"
+    },
+    {
+      "id": "8",
+      "date": "2024-08-01",
+      "student": "Henry Ebony",
+      "status": "Present"
+    },
+    {
+      "id": "9",
+      "date": "2024-08-01",
+      "student": "Emiloju Morire",
+      "status": "Absent"
+    },
+    {
+      "id": "10",
+      "date": "2024-08-01",
+      "student": "Johson Murewa",
+      "status": "Present"
+    },
+    {
+      "id": "11",
+      "date": "2024-08-02",
+      "student": "John Emmanuel",
+      "status": "Present"
+    },
+    {
+      "id": "12",
+      "date": "2024-08-02",
+      "student": "Feyisara Balogun",
+      "status": "Present"
+    },
+    {
+      "id": "13",
+      "date": "2024-08-02",
+      "student": "Blessing Ubong",
+      "status": "Absent",
+      "class": "Jss 1",
+      "label": "Week 1"
+    },
+    {
+      "id": "14",
+      "date": "2024-08-02",
+      "student": "Joshua Clara",
+      "status": "Present"
+    },
+    {
+      "id": "15",
+      "date": "2024-08-02",
+      "student": "Ifesanwo Ifeoluwa",
+      "status": "Absent"
+    },
+    {
+      "id": "16",
+      "date": "2024-08-02",
+      "student": "Feyisayo Gold",
+      "status": "Present"
+    },
+    {
+      "id": "17",
+      "date": "2024-08-02",
+      "student": "Coker Racheal",
+      "status": "Present"
+    },
+    {
+      "id": "18",
+      "date": "2024-08-02",
+      "student": "Henry Ebony",
+      "status": "Present"
+    },
+    {
+      "id": "19",
+      "date": "2024-08-02",
+      "student": "Emiloju Morire",
+      "status": "Absent"
+    },
+    {
+      "id": "20",
+      "date": "2024-08-02",
+      "student": "Johson Murewa",
+      "status": "Absent"
+    },
+    {
+      "id": "21",
+      "date": "2024-08-03",
+      "student": "John Emmanuel",
+      "status": "Present"
+    },
+    {
+      "id": "22",
+      "date": "2024-08-03",
+      "student": "Feyisara Balogun",
+      "status": "Present"
+    },
+    {
+      "id": "23",
+      "date": "2024-08-03",
+      "student": "Blessing Ubong",
+      "status": "Absent",
+      "class": "Jss 1",
+      "label": "Week 1"
+    },
+    {
+      "id": "24",
+      "date": "2024-08-03",
+      "student": "Joshua Clara",
+      "status": "Present"
+    },
+    {
+      "id": "25",
+      "date": "2024-08-03",
+      "student": "Ifesanwo Ifeoluwa",
+      "status": "Absent"
+    },
+    {
+      "id": "26",
+      "date": "2024-08-03",
+      "student": "Feyisayo Gold",
+      "status": "Present"
+    },
+    {
+      "id": "27",
+      "date": "2024-08-03",
+      "student": "Coker Racheal",
+      "status": "Present"
+    },
+    {
+      "id": "28",
+      "date": "2024-08-03",
+      "student": "Henry Ebony",
+      "status": "Present"
+    },
+    {
+      "id": "29",
+      "date": "2024-08-03",
+      "student": "Emiloju Morire",
+      "status": "Absent"
+    },
+    {
+      "id": "30",
+      "date": "2024-08-03",
+      "student": "Johson Murewa",
+      "status": "Absent"
+    }
+
+  ],
+  "weeklyAttendanceSummary": [
+    {
+      "fullName": "John Emmanuel",
+      "daysOfWeek": "Mon, Tue, Wed, Thu, Fri",
+      "weeklyTotal": 5,
+      "studentGrade": "A",
+      "studentPerformance": "Excellent",
+      "gpa": 3.9
+    },
+    {
+      "fullName": "Feyisara Balogun",
+      "daysOfWeek": "Mon, Tue, Thu",
+      "weeklyTotal": 3,
+      "studentGrade": "B",
+      "studentPerformance": "Good",
+      "gpa": 3.5
+    },
+    {
+      "fullName": "Blessing Ubong",
+      "daysOfWeek": "Mon, Tue, Wed, Thu, Fri",
+      "weeklyTotal": 5,
+      "studentGrade": "A",
+      "studentPerformance": "Excellent",
+      "gpa": 3.8
+    },
+    {
+      "fullName": "Joshua Clara",
+      "daysOfWeek": "Mon, Wed, Fri",
+      "weeklyTotal": 3,
+      "studentGrade": "C",
+      "studentPerformance": "Average",
+      "gpa": 2.8
+    },
+    {
+      "fullName": "Ifesanwo Ifeoluwa",
+      "daysOfWeek": "Mon, Wed, Thurs, Fri",
+      "weeklyTotal": 4,
+      "studentGrade": "B",
+      "studentPerformance": "Good",
+      "gpa": 3.4
+    },
+    {
+      "fullName": "Feyisayo Gold",
+      "daysOfWeek": "Mon, Tue, Wed, Fri",
+      "weeklyTotal": 4,
+      "studentGrade": "B",
+      "studentPerformance": "Good",
+      "gpa": 3.6
+    },
+    {
+      "fullName": "Coker Racheal",
+      "daysOfWeek": "Mon, Tue, Wed",
+      "weeklyTotal": 3,
+      "studentGrade": "C",
+      "studentPerformance": "Average",
+      "gpa": 2.9
+    },
+    {
+      "fullName": "Henry Ebony",
+      "daysOfWeek": "Mon, Tue, Thu, Fri",
+      "weeklyTotal": 4,
+      "studentGrade": "B",
+      "studentPerformance": "Good",
+      "gpa": 3.5
+    }
+  ],
+  "behaviors": [
+    {
+      "id": 1,
+      "date": "2024-08-01",
+      "type": "Positive",
+      "description": "Good behavior"
+    },
+    {
+      "id": 2,
+      "date": "2024-08-02",
+      "type": "Positive",
+      "description": "Good behavior"
+    },
+    {
+      "id": 3,
+      "date": "2024-08-03",
+      "type": "Negative",
+      "description": "Disruptive in class"
+    },
+    {
+      "id": 4,
+      "date": "2024-08-04",
+      "type": "Negative",
+      "description": "Disruptive in class"
+    },
+    {
+      "id": 5,
+      "date": "2024-08-05",
+      "type": "Positive",
+      "description": "Helped a fellow student"
+    },
+    {
+      "id": 6,
+      "date": "2024-08-06",
+      "type": "Negative",
+      "description": "Late to class"
+    },
+    {
+      "id": 7,
+      "date": "2024-08-07",
+      "type": "Positive",
+      "description": "Participated actively in class"
+    }
+  ],
+  "grades": [
+    { "id": 1, "subject": "Math", "grade": 85 },
+    { "id": 2, "subject": "Science", "grade": 90 },
+    { "id": 3, "subject": "Civic", "grade": 85 },
+    { "id": 4, "subject": "Chemistry", "grade": 90 },
+    { "id": 5, "subject": "History", "grade": 78 },
+    { "id": 6, "subject": "English", "grade": 88 },
+    { "id": 7, "subject": "Physical Education", "grade": 92 },
+    { "id": 8, "subject": "Art", "grade": 81 },
+    { "id": 9, "subject": "Geography", "grade": 85 },
+    { "id": 10, "subject": "Computer Science", "grade": 89 }
+  ],
+  "classes": [
+    { "id": 1, "class": "Jss 1" },
+    { "id": 2, "class": "Jss 2" },
+    { "id": 3, "class": "Jss 3" },
+    { "id": 4, "class": "Sss 1" },
+    { "id": 5, "class": "Sss 2" },
+    { "id": 6, "class": "Sss 3" },
+    { "id": 7, "class": "Jss 1B" },
+    { "id": 8, "class": "Jss 2A" },
+    { "id": 9, "class": "Jss 3B" }
+  ],
+  "weeks": [
+    { "value": "1", "label": "Week 1" },
+    { "value": "2", "label": "Week 2" },
+    { "value": "3", "label": "Week 3" },
+    { "value": "4", "label": "Week 4" },
+    { "value": "5", "label": "Week 5" },
+    { "value": "6", "label": "Week 6" },
+    { "value": "7", "label": "Week 7" },
+    { "value": "8", "label": "Week 8" },
+    { "value": "9", "label": "Week 9" },
+    { "value": "10", "label": "Week 10" },
+    { "value": "11", "label": "Week 11" },
+    { "value": "12", "label": "Week 12" },
+    { "value": "13", "label": "Week 13" }
+  ]
+}
