@@ -228,9 +228,9 @@ export default {
     const currentPage = ref(1);
     const recordsPerPage = ref(5);
 
-    const fetchAttendanceData = async () => {
+    const fetchAttendanceData = async () => {           //async makes a function return a Promise
       try {
-        const response = await fetch("/db.json");
+        const response = await fetch("/db.json");       //await makes a function wait for a Promise
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -242,7 +242,7 @@ export default {
         attendanceRecords.value = data.attendanceRecords;
         weeklyAttendanceSummary.value = data.weeklyAttendanceSummary;
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching data:", error); 
       }
     };
 
@@ -264,13 +264,14 @@ export default {
 
       return paginated;
     });
-
+   // A computed property that calculates the total number of pages based on the filtered attendance records
     const totalPages = computed(() => {
       return Math.ceil(
         filteredAttendanceRecords.value.length / recordsPerPage.value
       );
     });
 
+     // Function to open the edit modal for a specific record.
     const openEditModal = (index) => {
       selectedRecord.value = weeklyAttendanceSummary.value[index];
       isModalVisible.value = true;
@@ -279,7 +280,7 @@ export default {
     const closeEditModal = () => {
       isModalVisible.value = false;
     };
-
+ 
     const saveEditedRecord = (editedRecord) => {
       const index = weeklyAttendanceSummary.value.findIndex(
         (record) => record.fullName === editedRecord.fullName
@@ -345,6 +346,7 @@ export default {
       }
     });
 
+    // Returning the reactive properties and methods to be used in the template
     return {
       pieChartData,
       barChartData,

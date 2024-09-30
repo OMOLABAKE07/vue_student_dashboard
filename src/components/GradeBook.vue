@@ -106,7 +106,7 @@
                 <button type="submit" class="btn btn-success mt-3">
                   Add Grade
                 </button>
-              </form>
+              </form>F
               <button @click="clearGrades" class="btn btn-danger mt-3">
                 Clear All Grades
               </button>
@@ -118,17 +118,14 @@
   </div>
 </template>
 <script>
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
 import Chart from "chart.js/auto";
 
 export default {
   name: "GradeBook",
   setup() {
+    // Reference to the chart element in the DOM
     const chartRef = ref(null);
-
-    onMounted(() => {
-      // Other onMounted logic, if necessary
-    });
 
     return {
       chartRef,
@@ -143,11 +140,13 @@ export default {
         grade: null,
         credits: null,
       },
+      // Variables to hold instances of the charts
       gradeChart: null,
       trendChart: null,
     };
   },
   computed: {
+     // Computes the overall GPA based on the grades and credits
     overallGPA() {
       if (this.grades.length === 0) return 0;
 
@@ -222,7 +221,7 @@ export default {
             datasets: [
               {
                 label: "GPA",
-                data: data,
+                data: data, 
                 backgroundColor: "rgba(75, 192, 192, 0.2)",
                 borderColor: "rgba(75, 192, 192, 1)",
                 borderWidth: 1,
@@ -290,7 +289,7 @@ export default {
         const newGrades = [
           ...this.grades,
           {
-            ...this.newGrade,
+            ...this.newGrade,   // Updates the grades array
             grade: this.newGrade.grade.toString(),
             gpa: gpa,
           },
